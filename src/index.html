@@ -7,15 +7,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <div class="container dark"> <!-- 🌙 Start in dark mode -->
     <h2>Percentage Calculator</h2>
+    <button id="themeToggle">☀️ Light Mode</button> <!-- Default button text -->
 
     <!-- Accordion buttons -->
     <button class="accordion" onclick="toggleSection('percentSection')">Find % of a value</button>
     <div class="section" id="percentSection" style="display:block;">
       <input type="number" id="value" placeholder="Enter the value">
       <input type="number" id="percentage" placeholder="Enter the %">
-      <button onclick="calculatePercentage()">Calculate</button>
+      <button class="calculate_color" onclick="calculateReverse()">Calculate</button>
       <button class="clear" onclick="resetPercentage()">Clear</button>
       <div class="result" id="result"></div>
     </div>
@@ -24,11 +25,18 @@
     <div class="section" id="reverseSection">
       <input type="number" id="part" placeholder="Enter the part">
       <input type="number" id="whole" placeholder="Enter the whole">
-      <button onclick="calculateReverse()">Calculate</button>
+      <button class="calculate_color" onclick="calculateReverse()">Calculate</button>
       <button class="clear" onclick="resetReverse()">Clear</button>
       <div class="result" id="reverseResult"></div>
     </div>
   </div>
+
   <script src="script.js"></script>
+
+  
+    <footer>
+        © 2025 Logi Media&Development. All rights reserved. 
+        <a href="https://github.com/Logi-Media-Development/percentage-calculator" target="_blank">Source Code</a>
+    </footer>
 </body>
 </html>
