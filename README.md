@@ -21,6 +21,7 @@ Clear Functionality: Each calculator has a dedicated "Clear" button to quickly r
 Responsive Design: The layout is designed to be responsive, providing a consistent experience on both desktop and mobile devices.
 
 ## 💻 How to Use
+### 💻 Visit https://www.calc.logimediadev.com to use!
 Select a Calculator: Click on the accordion buttons to expand either the "Find % of a value" section or the "Find what % one number is of another" section.
 
 Enter Your Numbers:
@@ -34,4 +35,5 @@ Calculate: Click the blue "Calculate" button to see the result instantly.
 Reset: Click the red "Clear" button to reset the inputs for a new calculation.
 
 Toggle Theme: Use the "Light Mode" / "Dark Mode" button to switch between the two themes.
+
 
