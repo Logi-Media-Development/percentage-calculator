@@ -16,13 +16,14 @@
     <div class="section" id="percentSection" style="display:block;">
       <input type="number" id="value" placeholder="Enter the value">
       <input type="number" id="percentage" placeholder="Enter the %">
-      <button class="calculate_color" onclick="calculateReverse()">Calculate</button>
+      <!-- ✅ Fixed: call calculatePercentage() -->
+      <button class="calculate_color" onclick="calculatePercentage()">Calculate</button>
       <button class="clear" onclick="resetPercentage()">Clear</button>
       <div class="result" id="result"></div>
     </div>
 
     <button class="accordion" onclick="toggleSection('reverseSection')">Find what % one number is of another</button>
-    <div class="section" id="reverseSection">
+    <div class="section" id="reverseSection" style="display:none;"> <!-- CLOSED by default -->
       <input type="number" id="part" placeholder="Enter the part">
       <input type="number" id="whole" placeholder="Enter the whole">
       <button class="calculate_color" onclick="calculateReverse()">Calculate</button>
@@ -33,10 +34,9 @@
 
   <script src="script.js"></script>
 
-  
-    <footer>
-        © 2025 Logi Media&Development. All rights reserved. 
-        <a href="https://github.com/Logi-Media-Development/percentage-calculator" target="_blank">Source Code</a>
-    </footer>
+  <footer>
+    © 2025 Logi Media&Development. All rights reserved. 
+    <a href="https://github.com/Logi-Media-Development/percentage-calculator" target="_blank">Source Code</a>
+  </footer>
 </body>
 </html>
