@@ -1,7 +1,7 @@
 # Percentage Calculator
 This is a dynamic and user-friendly web-based percentage calculator. It features a clean, modern design with a unique animated background and a light/dark theme toggle. The calculator is designed to be intuitive, allowing you to quickly perform two common percentage-based calculations.
 
-🚀 ## Features
+## 🚀 Features
 Dual Calculation Modes: Easily switch between two primary functions:
 
 Find % of a value: Calculate the result when a percentage is applied to a given number (e.g., 10% of 200).
@@ -20,7 +20,7 @@ Clear Functionality: Each calculator has a dedicated "Clear" button to quickly r
 
 Responsive Design: The layout is designed to be responsive, providing a consistent experience on both desktop and mobile devices.
 
-💻 ## How to Use
+## 💻 How to Use
 Select a Calculator: Click on the accordion buttons to expand either the "Find % of a value" section or the "Find what % one number is of another" section.
 
 Enter Your Numbers:
@@ -34,3 +34,4 @@ Calculate: Click the blue "Calculate" button to see the result instantly.
 Reset: Click the red "Clear" button to reset the inputs for a new calculation.
 
 Toggle Theme: Use the "Light Mode" / "Dark Mode" button to switch between the two themes.
+
